@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Kamuthatha Boarding Primary School</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+
+            <div class="logo-box">
+                K
+            </div>
+
+            <div class="logo-text">
+
+                <strong>
+                    KAMUTHATHA
+                </strong>
+
+                <small>
+                    BOARDING PRIMARY SCHOOL
+                </small>
+
+            </div>
+
+        </a>
+
+
+        <nav id="navigation">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="academics.html">
+                Academics
+            </a>
+
+            <a href="admissions.html">
+                Admissions
+            </a>
+
+            <a href="student-life.html">
+                Student Life
+            </a>
+
+            <a href="news.html">
+                News
+            </a>
+
+            <a href="contact.html"
+               class="active">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <button class="menu" id="menuButton">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <p class="hero-tag">
+            GET IN TOUCH
+        </p>
+
+        <h1>
+            Contact
+            <span>Kamuthatha.</span>
+        </h1>
+
+        <p>
+            Have a question about admissions,
+            academics or school life?
+            We would love to hear from you.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="grid">
+
+
+            <div class="card">
+
+                <div class="card-number">
+                    LOCATION
+                </div>
+
+                <h3>
+                    Visit Us
+                </h3>
+
+                <p>
+                    Kamuthatha Boarding Primary School
+                    <br>
+                    Kenya
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-number">
+                    PHONE
+                </div>
+
+                <h3>
+                    Call Us
+                </h3>
+
+                <p>
+                    School phone number
+                    <br>
+                    Add the official number here.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-number">
+                    EMAIL
+                </div>
+
+                <h3>
+                    Email Us
+                </h3>
+
+                <p>
+                    School email address
+                    <br>
+                    Add the official email here.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <small>
+                SEND A MESSAGE
+            </small>
+
+            <h2>
+                How can we
+                <span>help?</span>
+            </h2>
+
+        </div>
+
+
+        <form class="form"
+              onsubmit="sendMessage(event)">
+
+            <input
+                type="text"
+                placeholder="Your name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your email"
+                required
+            >
+
+            <input
+                type="text"
+                placeholder="Subject"
+                required
+            >
+
+            <textarea
+                rows="7"
+                placeholder="Your message"
+                required
+            ></textarea>
+
+            <button
+                type="submit"
+                class="button button-primary">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer">
+
+        <div>
+
+            <h3>
+                Kamuthatha
+            </h3>
+
+            <p>
+                Better Your Best.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                School
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="academics.html">
+                Academics
+            </a>
+
+            <a href="student-life.html">
+                Student Life
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Admissions
+            </h3>
+
+            <a href="admissions.html">
+                Admissions
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <div class="container">
+
+            © 2026 Kamuthatha Boarding Primary School
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="./script.js"></script>
+
+<script>
+
+function sendMessage(event) {
+
+    event.preventDefault();
+
+    alert(
+        "Thank you! Your message has been received."
+    );
+
+    event.target.reset();
+
+}
+
+</script>
+
+</body>
+
+</html>
